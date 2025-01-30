@@ -4,8 +4,10 @@ body
     background-size: 150%;
     background-position: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 96vh;
 }
 .profile-box{
     background: red;
@@ -22,9 +24,12 @@ body
     left: 40px;
     top: 40px;
 }
+#education{
+   text-align: center;
+}
 .download1
 {
-  width: 45px;
+    width: 45px;
     position: absolute;
     right: 40px;
     top: 40px;   
@@ -33,11 +38,12 @@ body
     border-radius: 50%;
     background: #fff;
     padding: 6px;
-    margin-top: 40px; 
+    /* margin-top: 40px;  */
 }
 .pallavi{
     text-justify: auto;
     text-overflow:clip;
+    /* margin-top: 50px; */
 }
 .table{
     position: meddle;
